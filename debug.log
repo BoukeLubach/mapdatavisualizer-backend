@@ -1,0 +1,208 @@
+2023-01-18 13:32:05,210 INFO Watching for file changes with StatReloader
+2023-01-18 13:33:42,640 INFO Started loading data for model Bedrijf at: 13:33:42
+2023-01-18 13:33:42,650 ERROR Could not save: Moenduplicate key value violates unique constraint "plants_bedrijf_naam_key"
+DETAIL:  Key (naam)=(Moen) already exists.
+
+2023-01-18 13:33:42,659 ERROR Could not save: Skilesduplicate key value violates unique constraint "plants_bedrijf_naam_key"
+DETAIL:  Key (naam)=(Skiles) already exists.
+
+2023-01-18 13:38:46,003 INFO Start loading data for model Vestiging at: 13:38:46
+2023-01-18 13:38:57,766 INFO Start loading data for model Vestiging at: 13:38:57
+2023-01-18 13:39:33,289 INFO Start loading data for model Vestiging at: 13:39:33
+2023-01-18 13:40:25,184 INFO Started loading data for model Bedrijf at: 13:40:25
+2023-01-18 13:40:25,213 INFO Start loading data for model Vestiging at: 13:40:25
+2023-01-18 13:46:57,390 INFO Started loading data for model Bedrijf at: 13:46:57
+2023-01-18 13:46:57,414 INFO Start loading data for model Vestiging at: 13:46:57
+2023-01-18 13:47:05,024 INFO Start loading data for model Project at: 13:47:05
+2023-01-18 13:47:34,458 INFO Start loading data for model Project at: 13:47:34
+2023-01-18 13:48:32,463 INFO Start loading data for model Project at: 13:48:32
+2023-01-18 18:36:55,349 INFO /usr/src/app/plants/apiviews.py changed, reloading.
+2023-01-18 18:36:57,433 INFO Watching for file changes with StatReloader
+2023-01-18 18:37:08,730 INFO /usr/src/app/plants/apiviews.py changed, reloading.
+2023-01-18 18:37:10,471 INFO Watching for file changes with StatReloader
+2023-01-18 18:37:25,791 INFO /usr/src/app/plants/apiviews.py changed, reloading.
+2023-01-18 18:37:27,508 INFO Watching for file changes with StatReloader
+2023-01-18 18:37:45,443 INFO /usr/src/app/plants/apiviews.py changed, reloading.
+2023-01-18 18:37:47,140 INFO Watching for file changes with StatReloader
+2023-01-18 18:38:01,375 INFO /usr/src/app/plants/apiviews.py changed, reloading.
+2023-01-18 18:38:02,993 INFO Watching for file changes with StatReloader
+2023-01-18 18:38:13,338 INFO /usr/src/app/plants/urls.py changed, reloading.
+2023-01-18 18:38:14,870 INFO Watching for file changes with StatReloader
+2023-01-18 18:45:10,741 INFO /usr/src/app/plants/apiviews.py changed, reloading.
+2023-01-18 18:45:12,500 INFO Watching for file changes with StatReloader
+2023-01-18 18:45:26,291 INFO /usr/src/app/plants/urls.py changed, reloading.
+2023-01-18 18:45:28,341 INFO Watching for file changes with StatReloader
+2023-01-18 18:45:41,547 INFO /usr/src/app/plants/urls.py changed, reloading.
+2023-01-18 18:45:43,411 INFO Watching for file changes with StatReloader
+2023-01-18 18:45:49,518 INFO /usr/src/app/plants/apiviews.py changed, reloading.
+2023-01-18 18:45:51,460 INFO Watching for file changes with StatReloader
+2023-01-18 18:45:56,338 INFO /usr/src/app/plants/apiviews.py changed, reloading.
+2023-01-18 18:45:58,133 INFO Watching for file changes with StatReloader
+2023-01-18 18:45:59,799 INFO /usr/src/app/plants/apiviews.py changed, reloading.
+2023-01-18 18:46:01,802 INFO Watching for file changes with StatReloader
+2023-01-18 18:46:18,302 INFO /usr/src/app/plants/serializers.py changed, reloading.
+2023-01-18 18:46:20,533 INFO Watching for file changes with StatReloader
+2023-01-18 18:46:24,389 INFO /usr/src/app/plants/models.py changed, reloading.
+2023-01-18 18:46:26,271 INFO Watching for file changes with StatReloader
+2023-01-18 18:46:34,183 INFO /usr/src/app/plants/models.py changed, reloading.
+2023-01-18 18:46:36,068 INFO Watching for file changes with StatReloader
+2023-01-18 18:46:39,694 INFO /usr/src/app/plants/models.py changed, reloading.
+2023-01-18 18:46:41,655 INFO Watching for file changes with StatReloader
+2023-01-18 19:01:03,855 INFO Watching for file changes with StatReloader
+2023-01-18 19:01:58,853 INFO Watching for file changes with StatReloader
+2023-01-18 19:02:14,896 INFO /usr/src/app/plants/admin.py changed, reloading.
+2023-01-18 19:02:18,527 INFO Watching for file changes with StatReloader
+2023-01-18 19:02:29,925 INFO /usr/src/app/plants/urls.py changed, reloading.
+2023-01-18 19:02:33,246 INFO Watching for file changes with StatReloader
+2023-01-18 19:35:29,969 INFO Watching for file changes with StatReloader
+2023-01-20 09:59:01,150 INFO Watching for file changes with StatReloader
+2023-01-20 10:01:42,948 INFO Watching for file changes with StatReloader
+2023-01-20 10:02:45,927 INFO Watching for file changes with StatReloader
+2023-01-20 10:06:33,422 WARNING Not Found: /favicon.ico
+2023-01-20 10:15:11,348 WARNING Not Found: /energieimporttable/api/energieimport/
+2023-01-20 12:17:55,615 WARNING Not Found: /energieimporttable/api/energieimport/
+2023-01-25 15:17:43,329 INFO Watching for file changes with StatReloader
+2023-02-07 13:05:42,972 INFO Watching for file changes with StatReloader
+2023-02-07 13:06:21,858 INFO Watching for file changes with StatReloader
+2023-02-07 13:07:59,670 INFO Watching for file changes with StatReloader
+2023-02-07 13:10:16,757 INFO Watching for file changes with StatReloader
+2023-02-07 13:11:45,348 INFO Watching for file changes with StatReloader
+2023-02-07 13:11:56,271 WARNING Not Found: /favicon.ico
+2023-02-07 13:12:17,384 WARNING Not Found: /api/plant
+2023-02-07 13:12:21,445 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "plants_vestiging" does not exist
+LINE 1: ...tiging"."wkk", "plants_vestiging"."wkk_2030" FROM "plants_ve...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 663, in to_representation
+    return [
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 280, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "plants_vestiging" does not exist
+LINE 1: ...tiging"."wkk", "plants_vestiging"."wkk_2030" FROM "plants_ve...
+                                                             ^
+
+2023-02-07 13:13:58,108 INFO Started loading data for model Bedrijf at: 13:13:58
+2023-02-07 13:13:58,165 INFO Start loading data for model Vestiging at: 13:13:58
+2023-02-07 13:13:58,278 INFO Start loading data for model Project at: 13:13:58
+2023-05-02 10:37:39,545 INFO Watching for file changes with StatReloader
+2023-05-02 08:39:09,624 INFO Watching for file changes with StatReloader
+2023-05-02 08:40:37,620 INFO Watching for file changes with StatReloader
+2023-05-02 08:40:39,066 WARNING Not Found: /swagger/
+2023-05-02 08:40:39,228 WARNING Not Found: /favicon.ico
+2023-05-02 08:40:40,994 WARNING Not Found: /swagger/
+2023-05-02 09:33:32,805 INFO Watching for file changes with StatReloader
+2023-05-02 09:55:03,963 INFO Watching for file changes with StatReloader
+2023-05-02 09:56:29,229 WARNING Not Found: /api
+2023-05-02 09:56:34,545 ERROR Internal Server Error: /api/energieimport/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "plants_energie_import" does not exist
+LINE 1: ..."."waterstof", "plants_energie_import"."co2" FROM "plants_en...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 663, in to_representation
+    return [
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 280, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "plants_energie_import" does not exist
+LINE 1: ..."."waterstof", "plants_energie_import"."co2" FROM "plants_en...
+                                                             ^
+
+2023-05-02 09:57:48,019 INFO Started loading data for model Bedrijf at: 09:57:48
+2023-05-02 09:57:48,065 INFO Start loading data for model Vestiging at: 09:57:48
+2023-05-02 09:57:48,175 INFO Start loading data for model Project at: 09:57:48
+2023-05-02 09:58:03,870 WARNING Not Found: /favicon.ico
+2023-06-23 08:22:49,845 INFO Watching for file changes with StatReloader

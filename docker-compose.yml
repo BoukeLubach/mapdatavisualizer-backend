@@ -1,0 +1,24 @@
+services:
+  db:
+    image: postgres:14.5-alpine
+    volumes:
+      - pgdb_dev:/var/lib/postgresql/data/
+    env_file:
+      - ./.env.dev.db
+
+  energymap:
+    build: .
+    container_name: energymap
+    command: python manage.py runserver 0.0.0.0:8040
+    volumes:
+      - .:/usr/src/app/
+    ports:
+      - 8040:8040
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - db
+
+
+volumes:
+  pgdb_dev:
