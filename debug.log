@@ -206,3 +206,1343 @@ LINE 1: ..."."waterstof", "plants_energie_import"."co2" FROM "plants_en...
 2023-05-02 09:57:48,175 INFO Start loading data for model Project at: 09:57:48
 2023-05-02 09:58:03,870 WARNING Not Found: /favicon.ico
 2023-06-23 08:22:49,845 INFO Watching for file changes with StatReloader
+2023-07-03 19:44:00,515 INFO Watching for file changes with StatReloader
+2023-07-03 19:44:04,978 ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:44:08,964 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: plants_vestiging
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: plants_vestiging
+2023-07-03 19:44:14,230 WARNING Not Found: /favicon.ico
+2023-07-03 19:44:27,016 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: plants_vestiging
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: plants_vestiging
+2023-07-03 19:44:37,078 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: plants_vestiging
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: plants_vestiging
+2023-07-03 19:44:47,229 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-03 19:44:48,117 INFO Watching for file changes with StatReloader
+2023-07-03 19:44:49,584 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: plants_vestiging
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: plants_vestiging
+2023-07-03 19:44:50,654 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: plants_vestiging
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: plants_vestiging
+2023-07-03 19:47:36,044 INFO Watching for file changes with StatReloader
+2023-07-03 19:47:51,074 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-03 19:47:51,924 INFO Watching for file changes with StatReloader
+2023-07-03 19:48:00,558 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:49:11,634 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-03 19:49:12,514 INFO Watching for file changes with StatReloader
+2023-07-03 19:49:15,284 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:49:15,964 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:49:34,178 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-03 19:49:35,004 INFO Watching for file changes with StatReloader
+2023-07-03 19:49:37,515 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:49:38,306 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:49:38,844 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:50:23,045 INFO Watching for file changes with StatReloader
+2023-07-03 19:51:01,839 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:51:03,627 ERROR Internal Server Error: /api/vestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:51:06,437 ERROR Internal Server Error: /api/project/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:58:05,558 ERROR Internal Server Error: /api/project/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:58:19,427 ERROR Internal Server Error: /api/energieimportvestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 19:58:57,891 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-03 19:58:58,814 INFO Watching for file changes with StatReloader
+2023-07-03 19:59:10,096 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-03 19:59:11,036 INFO Watching for file changes with StatReloader
+2023-07-03 20:02:54,776 INFO Watching for file changes with StatReloader
+2023-07-03 20:02:57,856 ERROR Internal Server Error: /api/energieimportvestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 20:03:27,289 ERROR Internal Server Error: /api/energieimportvestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 20:03:29,976 ERROR Internal Server Error: /api/energieimportvestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 20:04:39,646 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-03 20:04:40,347 INFO Watching for file changes with StatReloader
+2023-07-03 20:04:43,770 ERROR Internal Server Error: /api/energieimportvestiging/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\renderers.py", line 725, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\contrib\staticfiles\storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'rest_framework/css/bootstrap.min.css'
+2023-07-03 20:09:06,145 INFO Watching for file changes with StatReloader
+2023-07-03 20:09:12,437 WARNING Not Found: /static/rest_framework/css/bootstrap.min.77017a69879a.css
+2023-07-03 20:09:12,442 WARNING Not Found: /static/rest_framework/css/bootstrap-tweaks.46ed116b0edd.css
+2023-07-03 20:09:12,443 WARNING Not Found: /static/rest_framework/css/prettify.a987f72342ee.css
+2023-07-03 20:09:12,443 WARNING Not Found: /static/rest_framework/css/default.789dfb5732d7.css
+2023-07-03 20:09:12,448 WARNING Not Found: /static/rest_framework/js/jquery-3.5.1.min.dc5e7f18c8d3.js
+2023-07-03 20:09:12,453 WARNING Not Found: /static/rest_framework/js/bootstrap.min.2f34b630ffe3.js
+2023-07-03 20:09:12,456 WARNING Not Found: /static/rest_framework/js/prettify-min.709bfcc456c6.js
+2023-07-03 20:09:12,458 WARNING Not Found: /static/rest_framework/js/ajax-form.0ea6e6052ab5.js
+2023-07-03 20:09:12,461 WARNING Not Found: /static/rest_framework/js/csrf.969930007329.js
+2023-07-03 20:09:12,464 WARNING Not Found: /static/rest_framework/js/default.5b08897dbdc3.js
+2023-07-03 20:09:13,788 WARNING Not Found: /static/rest_framework/css/bootstrap.min.77017a69879a.css
+2023-07-03 20:09:13,801 WARNING Not Found: /static/rest_framework/css/bootstrap-tweaks.46ed116b0edd.css
+2023-07-03 20:09:13,803 WARNING Not Found: /static/rest_framework/css/prettify.a987f72342ee.css
+2023-07-03 20:09:13,805 WARNING Not Found: /static/rest_framework/css/default.789dfb5732d7.css
+2023-07-03 20:09:13,806 WARNING Not Found: /static/rest_framework/js/jquery-3.5.1.min.dc5e7f18c8d3.js
+2023-07-03 20:09:13,809 WARNING Not Found: /static/rest_framework/js/ajax-form.0ea6e6052ab5.js
+2023-07-03 20:09:13,812 WARNING Not Found: /static/rest_framework/js/csrf.969930007329.js
+2023-07-03 20:09:13,818 WARNING Not Found: /static/rest_framework/js/bootstrap.min.2f34b630ffe3.js
+2023-07-03 20:09:13,821 WARNING Not Found: /static/rest_framework/js/prettify-min.709bfcc456c6.js
+2023-07-03 20:09:13,823 WARNING Not Found: /static/rest_framework/js/default.5b08897dbdc3.js
+2023-07-03 20:09:14,418 WARNING Not Found: /static/rest_framework/css/bootstrap.min.77017a69879a.css
+2023-07-03 20:09:14,427 WARNING Not Found: /static/rest_framework/css/bootstrap-tweaks.46ed116b0edd.css
+2023-07-03 20:09:14,428 WARNING Not Found: /static/rest_framework/css/prettify.a987f72342ee.css
+2023-07-03 20:09:14,428 WARNING Not Found: /static/rest_framework/css/default.789dfb5732d7.css
+2023-07-03 20:09:14,432 WARNING Not Found: /static/rest_framework/js/jquery-3.5.1.min.dc5e7f18c8d3.js
+2023-07-03 20:09:14,435 WARNING Not Found: /static/rest_framework/js/ajax-form.0ea6e6052ab5.js
+2023-07-03 20:09:14,439 WARNING Not Found: /static/rest_framework/js/csrf.969930007329.js
+2023-07-03 20:09:14,447 WARNING Not Found: /static/rest_framework/js/bootstrap.min.2f34b630ffe3.js
+2023-07-03 20:09:14,449 WARNING Not Found: /static/rest_framework/js/prettify-min.709bfcc456c6.js
+2023-07-03 20:09:14,453 WARNING Not Found: /static/rest_framework/js/default.5b08897dbdc3.js
+2023-07-03 20:09:19,145 WARNING Not Found: /static/rest_framework/css/bootstrap.min.77017a69879a.css
+2023-07-03 20:09:19,153 WARNING Not Found: /static/rest_framework/css/bootstrap-tweaks.46ed116b0edd.css
+2023-07-03 20:09:19,155 WARNING Not Found: /static/rest_framework/css/prettify.a987f72342ee.css
+2023-07-03 20:09:19,157 WARNING Not Found: /static/rest_framework/css/default.789dfb5732d7.css
+2023-07-03 20:09:19,159 WARNING Not Found: /static/rest_framework/js/jquery-3.5.1.min.dc5e7f18c8d3.js
+2023-07-03 20:09:19,162 WARNING Not Found: /static/rest_framework/js/ajax-form.0ea6e6052ab5.js
+2023-07-03 20:09:19,164 WARNING Not Found: /static/rest_framework/js/csrf.969930007329.js
+2023-07-03 20:09:19,170 WARNING Not Found: /static/rest_framework/js/bootstrap.min.2f34b630ffe3.js
+2023-07-03 20:09:19,172 WARNING Not Found: /static/rest_framework/js/prettify-min.709bfcc456c6.js
+2023-07-03 20:09:19,177 WARNING Not Found: /static/rest_framework/js/default.5b08897dbdc3.js
+2023-07-03 20:09:19,851 WARNING Not Found: /static/rest_framework/css/bootstrap.min.77017a69879a.css
+2023-07-03 20:09:19,858 WARNING Not Found: /static/rest_framework/css/bootstrap-tweaks.46ed116b0edd.css
+2023-07-03 20:09:19,860 WARNING Not Found: /static/rest_framework/css/prettify.a987f72342ee.css
+2023-07-03 20:09:19,862 WARNING Not Found: /static/rest_framework/css/default.789dfb5732d7.css
+2023-07-03 20:09:19,864 WARNING Not Found: /static/rest_framework/js/jquery-3.5.1.min.dc5e7f18c8d3.js
+2023-07-03 20:09:19,867 WARNING Not Found: /static/rest_framework/js/ajax-form.0ea6e6052ab5.js
+2023-07-03 20:09:19,870 WARNING Not Found: /static/rest_framework/js/csrf.969930007329.js
+2023-07-03 20:09:19,875 WARNING Not Found: /static/rest_framework/js/bootstrap.min.2f34b630ffe3.js
+2023-07-03 20:09:19,882 WARNING Not Found: /static/rest_framework/js/prettify-min.709bfcc456c6.js
+2023-07-03 20:09:19,884 WARNING Not Found: /static/rest_framework/js/default.5b08897dbdc3.js
+2023-07-03 20:09:21,633 WARNING Not Found: /static/rest_framework/css/bootstrap.min.77017a69879a.css
+2023-07-03 20:09:21,638 WARNING Not Found: /static/rest_framework/css/bootstrap-tweaks.46ed116b0edd.css
+2023-07-03 20:09:21,640 WARNING Not Found: /static/rest_framework/css/prettify.a987f72342ee.css
+2023-07-03 20:09:21,644 WARNING Not Found: /static/rest_framework/css/default.789dfb5732d7.css
+2023-07-03 20:09:21,645 WARNING Not Found: /static/rest_framework/js/jquery-3.5.1.min.dc5e7f18c8d3.js
+2023-07-03 20:09:21,649 WARNING Not Found: /static/rest_framework/js/prettify-min.709bfcc456c6.js
+2023-07-03 20:09:21,654 WARNING Not Found: /static/rest_framework/js/default.5b08897dbdc3.js
+2023-07-03 20:09:21,660 WARNING Not Found: /static/rest_framework/js/ajax-form.0ea6e6052ab5.js
+2023-07-03 20:09:21,663 WARNING Not Found: /static/rest_framework/js/csrf.969930007329.js
+2023-07-03 20:09:21,665 WARNING Not Found: /static/rest_framework/js/bootstrap.min.2f34b630ffe3.js
