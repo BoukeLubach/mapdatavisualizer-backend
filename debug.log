@@ -1,1 +1,62 @@
 2023-07-03 18:25:01,809 INFO Watching for file changes with StatReloader
+2023-07-05 07:49:08,982 INFO Watching for file changes with StatReloader
+2023-07-05 07:49:18,510 WARNING Not Found: /favicon.ico
+2023-07-05 07:49:38,710 INFO Started loading data for model Bedrijf at: 07:49:38
+2023-07-05 07:49:38,766 INFO Start loading data for model Vestiging at: 07:49:38
+2023-07-05 07:49:38,894 INFO Start loading data for model Project at: 07:49:38
+2023-07-05 07:50:13,778 INFO Started loading data for model Bedrijf at: 07:50:13
+2023-07-05 07:50:13,786 ERROR Could not save: MoenUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,786 ERROR Could not save: JastUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,786 ERROR Could not save: Abbott-BorerUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,827 ERROR Could not save: Flatley GroupUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,827 ERROR Could not save: TowneUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,827 ERROR Could not save: ConnUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,827 ERROR Could not save: SkilesUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,827 ERROR Could not save: StokesUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,827 ERROR Could not save: ChamplinUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,827 ERROR Could not save: HillsUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,827 ERROR Could not save: VolkmanUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,835 ERROR Could not save: KunzeUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,835 ERROR Could not save: KochUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,835 ERROR Could not save: LoweUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,835 ERROR Could not save: Wiza LtdUNIQUE constraint failed: plants_bedrijf.naam
+2023-07-05 07:50:13,835 INFO Start loading data for model Vestiging at: 07:50:13
+2023-07-05 07:50:13,947 INFO Start loading data for model Project at: 07:50:13
+2023-07-05 08:43:19,353 INFO Watching for file changes with StatReloader
+2023-07-05 08:44:38,474 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-05 08:44:38,954 INFO Watching for file changes with StatReloader
+2023-07-05 08:57:16,711 INFO Watching for file changes with StatReloader
+2023-07-05 09:02:30,554 WARNING Not Found: /favicon.ico
+2023-07-05 09:02:34,819 ERROR Internal Server Error: /redoc/
+Traceback (most recent call last):
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\drf_yasg\renderers.py", line 78, in render
+    self.set_context(renderer_context, swagger)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\drf_yasg\renderers.py", line 171, in set_context
+    super(ReDocRenderer, self).set_context(renderer_context, swagger)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\drf_yasg\renderers.py", line 86, in set_context
+    renderer_context.update(self.get_auth_urls())
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\drf_yasg\renderers.py", line 109, in get_auth_urls
+    'LOGIN_URL': self.resolve_url(swagger_settings.LOGIN_URL),
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\drf_yasg\renderers.py", line 105, in resolve_url
+    return resolve_url(to, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\shortcuts.py", line 130, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\.venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+2023-07-05 09:02:50,028 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-05 09:02:50,798 INFO Watching for file changes with StatReloader
+2023-07-05 09:03:48,406 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-05 09:03:49,016 INFO Watching for file changes with StatReloader
+2023-07-05 09:03:51,663 INFO C:\Users\SKIKK\Desktop\progamming\portfolio\Cluster6kaart\energymap-backend\core\settings.py changed, reloading.
+2023-07-05 09:03:52,214 INFO Watching for file changes with StatReloader
